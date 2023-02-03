@@ -1,0 +1,21 @@
+.button {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+}
+
+.button--wide {
+  width: calc(100% - 30px);
+  margin-inline: 15px;
+}
+
+.button--content {
+  width: auto;
+}
+
+.button--fulfilled {
+  background-color: #6610f2;
+  color: white;
+}

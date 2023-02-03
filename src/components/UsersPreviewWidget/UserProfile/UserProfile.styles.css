@@ -1,0 +1,40 @@
+.user-profile {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.user-profile__basic-info {
+  padding-block: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.user-profile__avatar {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-inline: 15px;
+}
+
+.user-profile__name {
+  font-weight: 500;
+}
+
+.user-profile__position {
+  opacity: 0.6;
+}
+
+.user-profile__contacts {
+  display: flex;
+  padding: 20px 15px 30px;
+  text-align: start;
+}
+
+.user-profile__contacts-category {
+  margin-right: 20px;
+}

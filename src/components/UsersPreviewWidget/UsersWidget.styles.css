@@ -1,0 +1,17 @@
+.users-widget__wrapper {
+  position: relative;
+  margin-inline: auto;
+  max-width: 420px;
+  border: 1px solid #e3e3e3;
+}
+
+.users-widget__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.users-widget__button {
+  margin-top: 15px;
+  margin-inline: auto;
+}
